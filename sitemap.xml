@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.inboxs.com/blog/2015/04/29/first-post/</loc>
+    <lastmod>2015-04-29T15:14:33+07:00</lastmod>
+  </url>
+  <url>
     <loc>http://www.inboxs.com/blog/2015/04/29/hello-octopress-and-github-pages/</loc>
     <lastmod>2015-04-29T10:12:22+07:00</lastmod>
   </url>
@@ -9,5 +13,20 @@
   </url>
   <url>
     <loc>http://www.inboxs.com/</loc>
+  </url>
+  <url>
+    <loc>http://www.inboxs.com/about-me/</loc>
+  </url>
+  <url>
+    <loc>http://www.inboxs.com/blog/categories/hai/</loc>
+  </url>
+  <url>
+    <loc>http://www.inboxs.com/blog/categories/bua/</loc>
+  </url>
+  <url>
+    <loc>http://www.inboxs.com/blog/categories/chuyen-pham/</loc>
+  </url>
+  <url>
+    <loc>http://www.inboxs.com/blog/categories/home/</loc>
   </url>
 </urlset>

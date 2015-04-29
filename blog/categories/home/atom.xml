@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Chuyen's Blog]]></title>
-  <link href="http://www.inboxs.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Home | Chuyen's Blog]]></title>
+  <link href="http://www.inboxs.com/blog/categories/home/atom.xml" rel="self"/>
   <link href="http://www.inboxs.com/"/>
   <updated>2015-04-29T15:28:47+07:00</updated>
   <id>http://www.inboxs.com/</id>
@@ -26,21 +26,6 @@ This is my first post since i start using Octopress as a blogging platform. i ha
 <p>Besides, i would like to dig deeper into Ruby world which puppet written on. I am a system engineer and i use puppet to do automation tasks so more knowledge in ruby programming will help me a lot on my career.</p>
 
 <p>Guys, hope you can find out a helpful info on my posts.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Octopress and Github Pages]]></title>
-    <link href="http://www.inboxs.com/blog/2015/04/29/hello-octopress-and-github-pages/"/>
-    <updated>2015-04-29T10:12:22+07:00</updated>
-    <id>http://www.inboxs.com/blog/2015/04/29/hello-octopress-and-github-pages</id>
-    <content type="html"><![CDATA[<p>Day la noi dung can test
-va day la dong thu 2</p>
-
-<p><section>
-    <h1>Some kind of title</h1>
-    <div class="aside-widget-content">Foo, bar</div>
-</section></p>
 ]]></content>
   </entry>
   
