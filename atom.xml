@@ -4,7 +4,7 @@
   <title><![CDATA[Chuyen's Blog]]></title>
   <link href="http://www.inboxs.com/atom.xml" rel="self"/>
   <link href="http://www.inboxs.com/"/>
-  <updated>2015-04-29T15:33:24+07:00</updated>
+  <updated>2015-04-29T15:34:31+07:00</updated>
   <id>http://www.inboxs.com/</id>
   <author>
     <name><![CDATA[Chuyen Pham]]></name>
@@ -18,8 +18,7 @@
     <link href="http://www.inboxs.com/blog/2015/04/29/first-post/"/>
     <updated>2015-04-29T15:14:33+07:00</updated>
     <id>http://www.inboxs.com/blog/2015/04/29/first-post</id>
-    <content type="html"><![CDATA[<p>Here is my First Post.
-This is my first post since i start using Octopress as a blogging platform. i have used Wordpress, it is great but Octopress make me impressive as it is a blogging platform which work good on terminal and different with others.</p>
+    <content type="html"><![CDATA[<p>Here is my &ldquo;First Post&rdquo; since i start using Octopress as a blogging platform. i have used Wordpress, it is great but Octopress make me impressive as it is a blogging platform which work good on terminal and different with others.</p>
 
 <p>I have used Wordpress for a long time to take note and share my working experiences (also give an idea to discuss with my friend and my colleagues) for a long time but now i decide to use Octopress instead. It is awesome and a good idea so far.</p>
 
