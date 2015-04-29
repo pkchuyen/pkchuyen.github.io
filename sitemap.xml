@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://pkchuyen.github.io/blog/2015/04/29/hello-octopress-and-github-pages-second-post/</loc>
+    <lastmod>2015-04-29T12:01:59+07:00</lastmod>
+  </url>
+  <url>
     <loc>http://pkchuyen.github.io/blog/2015/04/29/hello-octopress-and-github-pages/</loc>
     <lastmod>2015-04-29T10:12:22+07:00</lastmod>
   </url>
