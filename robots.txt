@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://pkchuyen.github.io/sitemap.xml 
+Sitemap: http://www.inboxs.com/sitemap.xml 

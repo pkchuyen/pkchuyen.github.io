@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Chuyen's Blog]]></title>
-  <link href="http://pkchuyen.github.io/atom.xml" rel="self"/>
-  <link href="http://pkchuyen.github.io/"/>
-  <updated>2015-04-29T12:11:21+07:00</updated>
-  <id>http://pkchuyen.github.io/</id>
+  <link href="http://www.inboxs.com/atom.xml" rel="self"/>
+  <link href="http://www.inboxs.com/"/>
+  <updated>2015-04-29T12:40:44+07:00</updated>
+  <id>http://www.inboxs.com/</id>
   <author>
     <name><![CDATA[Chuyen Pham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello Octopress and Github Pages]]></title>
-    <link href="http://pkchuyen.github.io/blog/2015/04/29/hello-octopress-and-github-pages/"/>
+    <link href="http://www.inboxs.com/blog/2015/04/29/hello-octopress-and-github-pages/"/>
     <updated>2015-04-29T10:12:22+07:00</updated>
-    <id>http://pkchuyen.github.io/blog/2015/04/29/hello-octopress-and-github-pages</id>
+    <id>http://www.inboxs.com/blog/2015/04/29/hello-octopress-and-github-pages</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
