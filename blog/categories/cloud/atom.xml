@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Cloud | Chuyen's Blog]]></title>
+  <link href="http://www.inboxs.com/blog/categories/cloud/atom.xml" rel="self"/>
+  <link href="http://www.inboxs.com/"/>
+  <updated>2015-04-30T13:42:32+07:00</updated>
+  <id>http://www.inboxs.com/</id>
+  <author>
+    <name><![CDATA[Chuyen]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[8 Points Should Folow Up When You Setup New Distributed Computing System]]></title>
+    <link href="http://www.inboxs.com/blog/2015/04/30/8-points-should-folow-up-when-you-setup-new-distributed-computing-system/"/>
+    <updated>2015-04-30T12:05:58+07:00</updated>
+    <id>http://www.inboxs.com/blog/2015/04/30/8-points-should-folow-up-when-you-setup-new-distributed-computing-system</id>
+    <content type="html"><![CDATA[<h3>The fallacies</h3>
+
+
+<p>The fallacies are summarized below:</p>
+
+<ul>
+1. The network is reliable.<br>
+2. Latency is zero.<br>
+3. Bandwidth is infinite.<br>
+4. The network is secure.<br>
+5. Topology doesn&#8217;t change.<br>
+6. There is one administrator.<br>
+7. Transport cost is zero.<br>
+8. The network is homogeneous.<br>
+</ul>
+
+
+
+
+<h3>Effects of the fallacies</h3>
+
+
+<ol>
+<li><p>Ignorance of network latency, and of the packet loss it can cause, induces application- and transport-layer developers to allow unbounded traffic, greatly increasing dropped packets and wasting bandwidth.</p></li>
+<li><p>Complacency regarding network security results in being blindsided by malicious users and programs that continually adapt to security measures.</p></li>
+<li><p>Multiple administrators, as with subnets for rival companies, may institute conflicting policies of which senders of network traffic must be aware in order to complete their desired paths.</p></li>
+<li><p>The &ldquo;hidden&rdquo; costs of building and maintaining a network or subnet are non-negligible and must consequently be noted in budgets to avoid vast shortfalls.</p></li>
+<li><p>Ignorance of bandwidth limits on the part of traffic senders can result in bottlenecks over frequency-multiplexed media.</p></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
