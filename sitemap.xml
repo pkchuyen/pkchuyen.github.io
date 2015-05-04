@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.inboxs.com/blog/2015/05/04/iptables-how-to-count-bandwidth-consumed-by-local-alice-memcache/</loc>
+    <lastmod>2015-05-04T13:51:30+07:00</lastmod>
+  </url>
+  <url>
     <loc>http://www.inboxs.com/blog/2015/04/30/8-points-should-folow-up-when-you-setup-new-distributed-computing-system/</loc>
     <lastmod>2015-04-30T12:05:58+07:00</lastmod>
   </url>
@@ -25,5 +29,14 @@
   </url>
   <url>
     <loc>http://www.inboxs.com/blog/categories/system/</loc>
+  </url>
+  <url>
+    <loc>http://www.inboxs.com/blog/categories/iptables/</loc>
+  </url>
+  <url>
+    <loc>http://www.inboxs.com/blog/categories/firewall/</loc>
+  </url>
+  <url>
+    <loc>http://www.inboxs.com/blog/categories/bandwidth/</loc>
   </url>
 </urlset>

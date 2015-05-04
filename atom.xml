@@ -4,7 +4,7 @@
   <title><![CDATA[Chuyen's Blog]]></title>
   <link href="http://www.inboxs.com/atom.xml" rel="self"/>
   <link href="http://www.inboxs.com/"/>
-  <updated>2015-04-30T13:42:32+07:00</updated>
+  <updated>2015-05-04T14:41:59+07:00</updated>
   <id>http://www.inboxs.com/</id>
   <author>
     <name><![CDATA[Chuyen]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[IPtables: How to Count Bandwidth Consumed by Local Alice Memcache]]></title>
+    <link href="http://www.inboxs.com/blog/2015/05/04/iptables-how-to-count-bandwidth-consumed-by-local-alice-memcache/"/>
+    <updated>2015-05-04T13:51:30+07:00</updated>
+    <id>http://www.inboxs.com/blog/2015/05/04/iptables-how-to-count-bandwidth-consumed-by-local-alice-memcache</id>
+    <content type="html"><![CDATA[<p>Due to last issues with memcache in Our Server, we need to count bandwidth consumed by local memcached instances (alice one for now).</p>
+
+<p>This can be done by adding needed rules to iptables:</p>
+
+<p>Get INPUT</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">iptables -I INPUT -p tcp -s 127.0.0.1 --sport <span class="m">11211</span> -j ACCEPT</code></pre></div>
+
+
+<p>Get OUTPUT</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">iptables -I OUTPUT -p tcp -d 127.0.0.1 --dport <span class="m">11211</span> -j ACCEPT</code></pre></div>
+
+
+
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server user<span class="o">]</span><span class="c"># iptables -I OUTPUT -p tcp -d 127.0.0.1 --dport 11211 -j ACCEPT</span>
+<span class="o">[</span>MY@root@web09 epetrenko<span class="o">]</span><span class="c"># iptables -I INPUT -p tcp -s 127.0.0.1 --sport 11211 -j ACCEPT</span></code></pre></div>
+
+
+<p>Checking - Confirmation</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server user<span class="o">]</span><span class="c"># iptables -nvL</span>
+Chain INPUT <span class="o">(</span>policy ACCEPT <span class="m">2211</span> packets, 1074K bytes<span class="o">)</span>
+pkts bytes target prot opt in out <span class="nb">source </span>destination 
+<span class="m">189</span> <span class="m">12405</span> ACCEPT tcp – 127.0.0.1 0.0.0.0/0 tcp spt:11211
+
+Chain FORWARD <span class="o">(</span>policy ACCEPT <span class="m">0</span> packets, <span class="m">0</span> bytes<span class="o">)</span>
+pkts bytes target prot opt in out <span class="nb">source </span>destination
+
+Chain OUTPUT <span class="o">(</span>policy ACCEPT <span class="m">2359</span> packets, 904K bytes<span class="o">)</span>
+pkts bytes target prot opt in out <span class="nb">source </span>destination 
+<span class="m">707</span> 485K ACCEPT tcp – 0.0.0.0/0 127.0.0.1 tcp dpt:11211</code></pre></div>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[8 Points Should Folow Up When You Setup New Distributed Computing System]]></title>
