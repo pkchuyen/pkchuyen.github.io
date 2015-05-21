@@ -2,10 +2,10 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Category: Home - Chuyen&#8217;s Blog</title>
+  <title>How to Detect the Physical Connected State of a Network Cable/connector? - Chuyen&#8217;s Blog</title>
   <meta name="author" content="Chuyen">
 
-  <meta name="description" content="Category: home">
+  
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -14,16 +14,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.inboxs.com/blog/categories/home/">
+  <link rel="canonical" href="http://www.inboxs.com/blog/2015/05/21/how-to-detect-the-physical-connected-state-of-a-network-cable-slash-connector/">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="Chuyen's Blog" type="application/atom+xml">
 
   <!-- http://opengraphprotocol.org/ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://www.inboxs.com/blog/categories/home/">
-  <meta property="og:title" content="Category: Home - Chuyen's Blog">
-  <meta property="og:description" content="Category: home">
+  <meta property="og:url" content="http://www.inboxs.com/blog/2015/05/21/how-to-detect-the-physical-connected-state-of-a-network-cable-slash-connector/">
+  <meta property="og:title" content="How to Detect the Physical Connected State of a Network Cable/ &hellip; - Chuyen's Blog">
+  
 
   <script src="/javascripts/libs/jquery/jquery-2.1.3.min.js"></script>
 
@@ -55,10 +55,10 @@
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li >
+                <li class="active">
                     <a rel="index" href="/">Blog</a>
                 </li>
-                <li class="active">
+                <li >
                     <a href="/blog/archives">Archives</a>
                 </li>
             </ul>
@@ -90,35 +90,16 @@
       <div id="main" role="main" class="container">
         <div id="content">
           <div class="row">
-  <div class="page-content col-md-9">
-    <article role="article">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="Chuyen's Blog" />
+    
+    <meta itemprop="url" content="http://www.inboxs.com" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
       
-        <header class="page-header">
-          
-          
-            <h1 class="entry-title">
-              Category: Home
-              
-            </h1>
-          
-        </header>
-      
-      <div class="entry-content">
-        <div id="blog-archives" class="category" itemscope itemtype="http://schema.org/Blog">
-<meta itemprop="name" content="Chuyen's Blog" />
-
-<meta itemprop="url" content="http://www.inboxs.com" />
-
-
-
-  
-  <h2 class="year">2015</h2>
-
-<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  
-<h2 class="post-title" itemprop="name headline"><a href="/blog/2015/04/29/first-post/" itemprop="url">First Post</a></h2>
-<p class="meta text-muted">
-  
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
 
 
 
@@ -131,40 +112,95 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-04-29T15:14:33+07:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-  
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-05-21T17:21:46+07:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title" itemprop="name headline">
+        How to Detect the Physical Connected State of a Network Cable/connector?
+        
+    </h1>
+    
+  </header>
 
-<span class="glyphicon glyphicon-tags"></span>&nbsp;
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/home/'>home</a>
-  
-</span>
 
+<div class="entry-content clearfix" itemprop="articleBody description">
 
-</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">[</span>root@vn-local1 ~<span class="o">]</span><span class="c"># for i in $( ls /sys/class/net ); do echo -n $i; ethtool $i | grep Link\ d; done</span>
+eth0    Link detected: yes
+eth1    Link detected: yes
+eth2    Link detected: no
+eth3    Link detected: no
+lo  Link detected: yes
+tun0    Link detected: yes
+usb0    Link detected: yes
 
-</article>
+yes: mean cable connected
+no: no cable connected</code></pre></div>
 
 </div>
 
-      </div>
-      
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Chuyen</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-05-21T17:21:46+07:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
+          
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://www.inboxs.com/blog/2015/05/21/how-to-detect-the-physical-connected-state-of-a-network-cable-slash-connector/" data-via="" data-counturl="http://www.inboxs.com/blog/2015/05/21/how-to-detect-the-physical-connected-state-of-a-network-cable-slash-connector/" >Tweet</a>
+  
+  
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2015/05/04/iptables-how-to-count-bandwidth-consumed-by-local-alice-memcache/" title="Previous Post: IPtables: how to count bandwidth consumed by local alice memcache">&laquo; IPtables: how to count bandwidth consumed by local alice memcache</a></li>
+            
+            
+          </ul>
+        
+      </footer>
     </article>
     
   </div>
 
   
-    <aside class="sidebar col-md-3">
-      
-        <section class="panel panel-default">
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Recent Posts</h3>
   </div>
   
   <div id="recent_posts" class="list-group">
     
-    <a class="list-group-item " href="/blog/2015/05/21/how-to-detect-the-physical-connected-state-of-a-network-cable-slash-connector/">How to Detect the Physical Connected State of a Network Cable/connector?</a>
+    <a class="list-group-item active" href="/blog/2015/05/21/how-to-detect-the-physical-connected-state-of-a-network-cable-slash-connector/">How to Detect the Physical Connected State of a Network Cable/connector?</a>
     
     <a class="list-group-item " href="/blog/2015/05/04/iptables-how-to-count-bandwidth-consumed-by-local-alice-memcache/">IPtables: How to Count Bandwidth Consumed by Local Alice Memcache</a>
     
@@ -180,8 +216,8 @@
 
 
 
-      
-    </aside>
+    
+  </aside>
   
 </div>
 

@@ -116,6 +116,56 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-05-21T17:21:46+07:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
+        
+      </p>
+    
+    
+      <h2 class="entry-title" itemprop="name headline"><a href="/blog/2015/05/21/how-to-detect-the-physical-connected-state-of-a-network-cable-slash-connector/" itemprop="url">How to Detect the Physical Connected State of a Network Cable/connector?</a></h2>
+    
+  </header>
+
+
+  <div class="entry-content clearfix" itemprop="articleBody description">
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">[</span>root@vn-local1 ~<span class="o">]</span><span class="c"># for i in $( ls /sys/class/net ); do echo -n $i; ethtool $i | grep Link\ d; done</span>
+eth0    Link detected: yes
+eth1    Link detected: yes
+eth2    Link detected: no
+eth3    Link detected: no
+lo  Link detected: yes
+tun0    Link detected: yes
+usb0    Link detected: yes
+
+yes: mean cable connected
+no: no cable connected</code></pre></div>
+
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-05-04T13:51:30+07:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
         
       </p>
@@ -203,16 +253,14 @@ pkts bytes target prot opt in out <span class="nb">source </span>destination
 
 <p>The fallacies are summarized below:</p>
 
-<ul>
-1. The network is reliable.<br>
-2. Latency is zero.<br>
-3. Bandwidth is infinite.<br>
-4. The network is secure.<br>
-5. Topology doesn&#8217;t change.<br>
-6. There is one administrator.<br>
-7. Transport cost is zero.<br>
-8. The network is homogeneous.<br>
-</ul>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">1. The network is reliable.
+2. Latency is zero.
+3. Bandwidth is infinite.
+4. The network is secure.
+5. Topology doesn<span class="err">&#39;</span>t change.
+6. There is one administrator.
+7. Transport cost is zero.
+8. The network is homogeneous.</code></pre></div>
 
 
 
@@ -227,6 +275,23 @@ pkts bytes target prot opt in out <span class="nb">source </span>destination
 <li><p>The &ldquo;hidden&rdquo; costs of building and maintaining a network or subnet are non-negligible and must consequently be noted in budgets to avoid vast shortfalls.</p></li>
 <li><p>Ignorance of bandwidth limits on the part of traffic senders can result in bottlenecks over frequency-multiplexed media.</p></li>
 </ol>
+
+
+<figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Awesome!&quot;</span> <span class="k">unless</span> <span class="n">lame</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Javascript Array Syntax</span><a href='http://j.mp/pPUUmW'>MDN Documentation </a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">var</span> <span class="nx">arr1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">arrayLength</span><span class="p">);</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">arr2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">element0</span><span class="p">,</span> <span class="nx">element1</span><span class="p">,</span> <span class="p">...,</span> <span class="nx">elementN</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
 
 </div>
   
@@ -301,6 +366,8 @@ And don&rsquo;t hesitate to ping me if needs to support on something. My door is
   </div>
   
   <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item " href="/blog/2015/05/21/how-to-detect-the-physical-connected-state-of-a-network-cable-slash-connector/">How to Detect the Physical Connected State of a Network Cable/connector?</a>
     
     <a class="list-group-item " href="/blog/2015/05/04/iptables-how-to-count-bandwidth-consumed-by-local-alice-memcache/">IPtables: How to Count Bandwidth Consumed by Local Alice Memcache</a>
     

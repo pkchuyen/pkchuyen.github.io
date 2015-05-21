@@ -4,7 +4,7 @@
   <title><![CDATA[Category: System | Chuyen's Blog]]></title>
   <link href="http://www.inboxs.com/blog/categories/system/atom.xml" rel="self"/>
   <link href="http://www.inboxs.com/"/>
-  <updated>2015-05-04T14:42:41+07:00</updated>
+  <updated>2015-05-21T17:25:57+07:00</updated>
   <id>http://www.inboxs.com/</id>
   <author>
     <name><![CDATA[Chuyen]]></name>
@@ -21,21 +21,22 @@
     <content type="html"><![CDATA[<h3>The fallacies</h3>
 
 
-<p>The fallacies are summarized below:</p>
+<p>The fallacies are summarized below:
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">&lt;/p&gt;
 
-<ul>
-1. The network is reliable.<br>
-2. Latency is zero.<br>
-3. Bandwidth is infinite.<br>
-4. The network is secure.<br>
-5. Topology doesn&#8217;t change.<br>
-6. There is one administrator.<br>
-7. Transport cost is zero.<br>
-8. The network is homogeneous.<br>
-</ul>
+&lt;ol&gt;
+&lt;li&gt;The network is reliable.&lt;/li&gt;
+&lt;li&gt;Latency is zero.&lt;/li&gt;
+&lt;li&gt;Bandwidth is infinite.&lt;/li&gt;
+&lt;li&gt;The network is secure.&lt;/li&gt;
+&lt;li&gt;Topology doesn<span class="p">&amp;</span>rsquo<span class="p">;</span>t change.&lt;/li&gt;
+&lt;li&gt;There is one administrator.&lt;/li&gt;
+&lt;li&gt;Transport cost is zero.&lt;/li&gt;
+&lt;li&gt;The network is homogeneous.&lt;/li&gt;
+&lt;/ol&gt;
 
 
-
+&lt;p&gt;</code></pre></div></p>
 
 <h3>Effects of the fallacies</h3>
 
@@ -48,6 +49,18 @@
 <li><p>Ignorance of bandwidth limits on the part of traffic senders can result in bottlenecks over frequency-multiplexed media.</p></li>
 </ol>
 
+
+<p><figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="no">Awesome</span><span class="o">!&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="k">unless</span> <span class="n">lame</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p><figure class='code'><figcaption><span>Javascript Array Syntax <a href="http://j.mp/pPUUmW">http://j.mp/pPUUmW</a> MDN Documentation </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">var</span> <span class="nx">arr1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">arrayLength</span><span class="p">);</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">arr2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">element0</span><span class="p">,</span> <span class="nx">element1</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">hellip</span><span class="p">;,</span> <span class="nx">elementN</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure></p>
 ]]></content>
   </entry>
   
